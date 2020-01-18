@@ -1,1 +1,213 @@
-<!-- In this file you are going to write the CSS code -->
+/*---------------- header------------------------------------------- */
+.transparent_nav
+{
+    height:90vh;
+    background-image: url(../img/billboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_bar
+{
+    background-color: rgba(216, 208, 208,0.7);
+    position: fixed;
+    right: 0;
+    width: 100%;
+    display: flex;
+}
+#nav_list
+{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+#logo
+{
+    margin-left: 200px;
+    height: 40%;
+}
+#nav_item_4
+{
+    margin-right: 200px;
+}
+.nav_item
+{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cta
+{
+    background-color: rgba(216, 208, 208,0.7);
+    position: absolute;
+    top:81vh;
+    width: 100%;
+    padding: 10px;
+}
+#cta_text
+{
+    float: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+#cta_link
+{
+    /* margin-top: 15px; */
+    margin-right: 40px;
+    float:right;
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgba(7, 184, 243, 0.7);
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+}
+#cta_link:hover
+{
+    background-color:rgba(3, 26, 34, 0.7);  
+    color: white;
+    box-shadow: none;
+}
+/*---------------- header------------------------------------------- */
+
+.service_title
+{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.separator
+{
+    display: flex;
+    margin-top: 10px;
+    justify-content:center;
+}
+.service_item
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*----------------------recent work---------------------------------*/
+.recent_work
+{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.projects
+{
+    width: 20vw;
+    height: 40vh;
+}
+/*----------------------recent work---------------------------------*/
+
+
+/*----------------------testimonial------------------------------- */
+
+.person
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+.person_img
+{
+    height: 80px;
+}
+#testimonial
+{
+    display: flex;
+    justify-content: center;
+}
+#testimonials_wrapper
+{
+    width: 80%;
+    margin-left:10%;
+}
+#testimonial_title
+{
+    /* text-align: center; */
+    margin-bottom: 40px;
+    margin-left: 45%;
+}
+.person-name , .person-des
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.person_testimonial
+{
+    margin:15px;
+}
+/*----------------------testimonial------------------------------- */
+
+
+/*----------------------- brand----------------------------------  */
+#brand
+{
+    margin: 20px 0 0 0;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:lightgray; */
+    background-color: lightslategray;
+}
+/*----------------------- brand----------------------------------  */
+
+/*------------------------ footer-------------------------------- */
+
+
+.footer{
+    background: black;
+    height: 55vh;
+}
+#quote
+{
+    background-color: 	#686868;
+    padding: 10px;
+    display: flex;
+    width: 70vw;
+    margin-left: 15vw;
+}
+#getintouch
+{
+    margin-left: auto;
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgba(7, 184, 243, 0.7);
+    color: white;
+    border-radius: 5px;
+}
+.footer_widget
+{
+    color: white;
+    height: 50px;
+}
+.footer_widget > h1
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer_widget >p{
+    line-height: 2;
+}
+
+.footer_component
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+    margin-top: 30px;
+}
+
+.copyright
+{
+    color: white;
+    position: relative;
+    top:150px;
+    margin-left:40vw;
+    padding-bottom: 10px;
+}
+/*------------------------ footer-------------------------------- */
